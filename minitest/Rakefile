@@ -1,0 +1,17 @@
+desc 'ask questions to  ball number 8'
+task :ball8 do
+  load 'ball8.rb'
+end
+
+desc 'run tweet tests'
+task :test do
+  load 'tweet_test.rb'
+end
+
+desc 'run tweet specs'
+task :spec do
+  load 'tweet_spec.rb'
+end
+
+desc 'run tweet specs and tests'
+task :default => [:test, :spec]
