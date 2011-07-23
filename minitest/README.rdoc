@@ -1,0 +1,20 @@
+=Exercises of Minitest
+
+Checkout Minitest documentation at http://bfts.rubyforge.org/minitest/.
+
+Also checkout a little example at the file +ball8.rb+.
+
+==Minitest plain old tests
+* Create a file named +tweet_test.rb+
+* Inside that file, test-drive the implementation of a +Tweet+ class like this:
+
+ tweet = Tweet.new('some text')
+ tweet.text # returns "some text"
+ tweet.published_on # returns the date and time the tweet was created on
+
+Write the tests and the class in the same file (no need to use separate files).
+You can't use any kind of gem or library in order to test the +published_on+ method.
+
+==Minitest specs
+* Create a file named +tweet_spec.rb+
+* Write the same tests using the spec syntax thant Minitest
