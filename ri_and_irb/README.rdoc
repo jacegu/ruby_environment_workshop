@@ -1,0 +1,23 @@
+=Exercises of the +ri+ and +irb+
+
+==Fun with files
+* Use +ri+ to understand how files work in Ruby
+* <b>In <tt>irb</tt></b>: write the code to read the content of a file and write it to a different one.
+
+==Fun with dates
+* Use +ri+ to understand how dates work in Ruby.
+* <b>In <tt>irb</tt></b>: write the code to obtain current date with and without time.
+* <b>In <tt>irb</tt></b>: write the code to parse a date with and without time.
+* <b>In <tt>irb</tt></b>: write the code to output the date of the week of the 8th day of the month of the last 10 years.
+
+(Remember to <tt>require 'date'</tt> in <tt>irb</tt>)
+
+==A little bit of modules and mixins
+* Define a comparable class (include <tt>Comparable</tt> module into the class)
+* Define a <tt><=>(other)</tt> method that returs:
+  * +1+ if the object that receives the <tt><=></tt> message is bigger than +other+
+  * +0+ if the object that receives the <tt><=></tt> message is equal to +other+
+  * +-1+ if the object that receives the <tt><=></tt> message is smaller than +other+
+* <b>In <tt>irb</tt></b>: require the class you have written and try to compare serveral instances of it.
+* <b>In <tt>irb</tt></b>: require the class you have written and try to compare an instance of it with other things like numbers, strings...
+
