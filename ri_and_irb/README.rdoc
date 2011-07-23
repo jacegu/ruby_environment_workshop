@@ -1,4 +1,4 @@
-=Exercises of the +ri+ and +irb+
+=Exercises of +ri+ and +irb+
 
 ==Fun with files
 * Use +ri+ to understand how files work in Ruby
