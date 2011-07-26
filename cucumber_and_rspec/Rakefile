@@ -1,0 +1,7 @@
+desc 'Launch the calculator'
+task :run do
+  default_port = '4567'
+  port = ENV['port']
+  port ||= default_port
+  `shotgun -p #{port} lib/calculator_server.rb`
+end

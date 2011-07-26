@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>The magic calculator</title>
+  </head>
+  <body>
+    <form method="post" action="/calculate">
+      <input type="text" id="first-operand" name="first-operand" value="" />
+      <input type="text" id="second-operand" name="second-operand" value="" />
+      <input type="submit" value="+" />
+    </form>
+
+    <div id="answer"><%= @answer %> </div>
+  </body>
+</html>
