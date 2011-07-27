@@ -12,8 +12,11 @@ Feature: Add two numbers
      When I ask for the sum of the two numbers
      Then I get "3" as the answer
 
+  @pending
   Scenario: Add a negative and positive number
 
+  @pending
   Scenario: Add a two negative numbers
 
+  @pending
   Scenario: Missing operands

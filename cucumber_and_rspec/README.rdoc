@@ -1,0 +1,24 @@
+=Cucumber and RSpec example
+
+Although we developed the calculator example out of Sinatra, the idea was to use Cucumber and Capybara to drive a small web app.
+
+Here is more or less the same example but as a web application. You can run it with:
+ rake run
+
+==Exercises
+* Complete the pending scenarios in +add.feature+
+* Write and develop (please, test drive it with Cucumber and RSpec) the subtraction.
+* Write and develop (please, test drive it with Cucumber and RSpec) the multiplication.
+* Write and develop (please, test drive it with Cucumber and RSpec) the division.
+
+==References
+*Cucumber:*
+* http://cukes.info
+*RSpec:*
+* http://relishapp.com/rspec
+* http://kerryb.github.com/iprug-rspec-presentation/
+*Sinatra:*
+* https://github.com/sinatra/sinatra
+* https://sinatrarb.com
+*Capybara:*
+* https://github.com/jnicklas/capybara

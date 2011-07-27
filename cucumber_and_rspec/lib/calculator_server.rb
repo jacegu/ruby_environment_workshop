@@ -3,8 +3,8 @@ $: << File.expand_path(File.dirname(__FILE__))
 require 'sinatra'
 require 'calculator'
 
+#Configuring sinatra paths. See http://www.sinatrarb.com/configuration.html
 set :root,   File.join(File.expand_path(File.dirname(__FILE__)), '..')
-set :public, Proc.new { File.join(root, 'public') }
 set :views,  Proc.new { File.join(root, 'views') }
 
 get '/' do
